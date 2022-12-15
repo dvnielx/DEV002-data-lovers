@@ -44,9 +44,9 @@ describe('orderAZ', () => {
       { name: "Cadwallader", gender: "Male", house: "Hufflepuff" },
       { name: "Euan Abercrombie", gender: "Male", house: "Gryffindor" },
       { name: "Hetty Bayliss", gender: "Female", house: "null" },
-      { name: "Katie Bell", gender: "Female", house: "Gryffindor}" },
+      { name: "Katie Bell", gender: "Female", house: "Gryffindor" },
       { name: "Zoo director", gender: "Male", house: "null"},
-      { name: "Mandy Brocklehurst", gender: "Female", house: "Ravenclaw}" },
+      { name: "Mandy Brocklehurst", gender: "Female", house: "Ravenclaw" },
     ];
 
     let result = orderAZ(arr);
@@ -54,8 +54,8 @@ describe('orderAZ', () => {
       { name: "Cadwallader", gender: "Male", house: "Hufflepuff" },
       { name: "Euan Abercrombie", gender: "Male", house: "Gryffindor" },
       { name: "Hetty Bayliss", gender: "Female", house: "null" },
-      { name: "Katie Bell", gender: "Female", house: "Gryffindor}" },
-      { name: "Mandy Brocklehurst", gender: "Female", house: "Ravenclaw}" },
+      { name: "Katie Bell", gender: "Female", house: "Gryffindor" },
+      { name: "Mandy Brocklehurst", gender: "Female", house: "Ravenclaw" },
       { name: "Zoo director", gender: "Male", house: "null"}
 
     ]);
@@ -72,16 +72,16 @@ describe('orderZA', () => {
       { name: "Cadwallader", gender: "Male", house: "Hufflepuff" },
       { name: "Euan Abercrombie", gender: "Male", house: "Gryffindor" },
       { name: "Hetty Bayliss", gender: "Female", house: "null" },
-      { name: "Katie Bell", gender: "Female", house: "Gryffindor}" },
+      { name: "Katie Bell", gender: "Female", house: "Gryffindor" },
       { name: "Zoo director", gender: "Male", house: "null"},
-      { name: "Mandy Brocklehurst", gender: "Female", house: "Ravenclaw}" },
+      { name: "Mandy Brocklehurst", gender: "Female", house: "Ravenclaw" },
     ];
 
     let result = orderZA(arr);
     expect(result).toEqual([
       { name: "Zoo director", gender: "Male", house: "null"},
-      { name: "Mandy Brocklehurst", gender: "Female", house: "Ravenclaw}" },
-      { name: "Katie Bell", gender: "Female", house: "Gryffindor}" },
+      { name: "Mandy Brocklehurst", gender: "Female", house: "Ravenclaw" },
+      { name: "Katie Bell", gender: "Female", house: "Gryffindor" },
       { name: "Hetty Bayliss", gender: "Female", house: "null" },
       { name: "Euan Abercrombie", gender: "Male", house: "Gryffindor" },
       { name: "Cadwallader", gender: "Male", house: "Hufflepuff" }
@@ -99,9 +99,9 @@ describe('calcularPorcentaje', () => {
       { name: "Cadwallader", gender: "Male", house: "Hufflepuff" },
       { name: "Euan Abercrombie", gender: "Male", house: "Gryffindor" },
       { name: "Hetty Bayliss", gender: "Female", house: "null" },
-      { name: "Katie Bell", gender: "Female", house: "Gryffindor}" },
+      { name: "Katie Bell", gender: "Female", house: "Gryffindor" },
       { name: "Zoo director", gender: "Male", house: "null"},
-      { name: "Mandy Brocklehurst", gender: "Female", house: "Ravenclaw}" },
+      { name: "Mandy Brocklehurst", gender: "Female", house: "Ravenclaw" },
     ];
 
     expect (calcularPorcentaje(arr)).toEqual({porcentajeMujeres: '50.0', porcentajeHombres: '50.0'});
