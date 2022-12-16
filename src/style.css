@@ -15,11 +15,6 @@ body{
     background-size: cover;          
 }
 
-h1 {
-    font-size: 2em;
-    font-weight: bold;
-}
-
 header {
     height: 1rem;
 }
@@ -54,14 +49,14 @@ nav img {
   }
 
 .title {
-    width: 41rem;
-    height: 13.5rem;
+    width: 27rem;
+    height: 9.5rem;
     padding: 2rem;
     text-align: center;
     margin-top: 3rem;
 }
 
-h4 {
+h1 {
     color: #D4D9D8;
     font-family: 'Indie Flower', sans-serif;
     font-size: 2rem;

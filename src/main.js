@@ -38,10 +38,6 @@ refreshPage.addEventListener("click", () => {
   window.location.reload(true);
 })
 
-// Al dar click en ordenamiento, va a cambiar el estado. 
-// En caso de no estar ordenado (''), lo convertirá en estado ascendente ('asc')
-// En caso de estar ordenado ascendente ('asc'), lo convertirá en estado descendente ('des')
-// En caso de estar ordenado descendente ('des'), lo convertirá en estado ascendente ('asc')
 iconoOrderAZ.addEventListener("click", () => {
   switch (order) {
     case '':
@@ -57,7 +53,7 @@ iconoOrderAZ.addEventListener("click", () => {
 })
 
 btnGrif.addEventListener('click', () => {
-  datosFiltrados = filtro(datos, 'Gryffindor'); // hace que los datos a mostrar sean solo los de la casa
+  datosFiltrados = filtro(datos, 'Gryffindor'); 
   mostrarHTML();
   sectionOne.style.display = "none";
   iconoOrderAZ.style.display = "block";
@@ -71,14 +67,14 @@ btnHuf.addEventListener('click', () => {
 });
 
 btnRav.addEventListener('click', () => {
-  datosFiltrados = filtro(datos, 'Ravenclaw'); // hace que los datos a mostrar sean solo los de la casa
+  datosFiltrados = filtro(datos, 'Ravenclaw'); 
   mostrarHTML();
   sectionOne.style.display = "none";
   iconoOrderAZ.style.display = "block";
 });
 
 btnSly.addEventListener('click', () => {
-  datosFiltrados = filtro(datos, 'Slytherin'); // hace que los datos a mostrar sean solo los de la casa
+  datosFiltrados = filtro(datos, 'Slytherin'); 
   mostrarHTML();
   sectionOne.style.display = "none";
   iconoOrderAZ.style.display = "block";
@@ -106,7 +102,7 @@ function mostrarHTML() {
     let divCard = document.createElement("div");
     let divContent = document.createElement("div");
     let hName = document.createElement("h2");
-    let hHouse = document.createElement("h1");
+    let hHouse = document.createElement("h2");
     let hSpecie = document.createElement("h2");
     let hatIcon = document.createElement("img");    
 
@@ -146,7 +142,6 @@ function mostrarHTML() {
 
     }
 
-
     contenido.appendChild(divCard);
     divCard.appendChild(divContent);
     divContent.appendChild(hatIcon);
@@ -156,4 +151,26 @@ function mostrarHTML() {
     
 
 })}
+
+let Array = [
+  {id: 1, nombre: 'pikachu'},
+  {id: 2, nombre: 'charmander'},
+  {id: 3, nombre: 'Bulbasur'}
+]
+
+function OrdenarDescendente(){
+  let descendent = Array.sort(function(a, b) { 
+    if(a.id > b.id) { return -1; } 
+    if(a.id < b.id) { return 1; } 
+      else {
+      return 0;
+    }}
+  )
+  return descendent
+}
+
+
+let resultado = OrdenarDescendente(Array)
+
+console.log(resultado)
 
