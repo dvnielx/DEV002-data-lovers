@@ -9,17 +9,17 @@ html {
 }
 
 body{
-    background-color: #6a2727;
+    background-color: #140D30;;
     text-align: center; 
     background-repeat: no-repeat;  
-    background-size: cover;   
-         
+    background-size: cover;          
 }
 
 h1 {
     font-size: 2em;
     font-weight: bold;
 }
+
 header {
     height: 1rem;
 }
@@ -45,12 +45,14 @@ nav {
     z-index: 10;
     background-color: #D4D9D8;
   }
+
 nav img {
     position: absolute;
     top: 0;
     left: 0;
     padding: 10px;
   }
+
 .title {
     width: 41rem;
     height: 13.5rem;
@@ -58,12 +60,14 @@ nav img {
     text-align: center;
     margin-top: 3rem;
 }
+
 h4 {
     color: #D4D9D8;
     font-family: 'Indie Flower', sans-serif;
     font-size: 2rem;
     padding: 1.2rem;
 }
+
  .logos-escuelas {
     width: 36%;
     margin: 1rem;
@@ -88,23 +92,18 @@ button[type=button] {
     color: #22184E;
     font-size: 14px;
     cursor:pointer;
+    padding: .4rem;
     width: 48%;
     margin-bottom: 2rem;
     border-width: 2px;
-    border-color: rgb(212, 132, 82);
+    border-color: lightsteelblue;
     border-radius: 1.3rem;
     margin: 3rem 2% 1rem
  }
 
- button[type=button]:hover {
-    background-color: rgb(33, 114, 124);
-    color: #ffffff;
- }
-
 #cargarAPI:hover {
-    background-color: #133d4857;
-    color: #fafafa;
-    
+    background-color: lightslategray;
+    color: #f6f6f6; 
 }
 
 .orderAZ {
@@ -115,15 +114,15 @@ button[type=button] {
 }
 
 #percentageBox {
-    margin: 1% 42% 1% 42%;
+    margin: 2rem auto;
+    border: 1px solid #f6f6f6;
     padding: .4%;
-    width: auto;
+    width: 27%;
     font-size: 1.5rem;
     display: none; 
     color: #D4D9D8;
     font-family: 'Raleway', sans-serif;
-    box-shadow: 0 2px 15px 0 rgba(232, 175, 43, 0.915); 
-    border-radius: 15px; 
+    border-radius: 8px; 
 
 }
 .cardsContainer {
@@ -149,7 +148,7 @@ button[type=button] {
   }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(215, 168, 30, 0.915);
+    box-shadow: 0 8px 16px 0 rgba(192, 235, 37, 0.915);
 }
 
 .infoCard {

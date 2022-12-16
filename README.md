@@ -6,6 +6,7 @@
 * [ii. Historias de Usuario](#2-historias-de-usuario)
 * [iii. Prototipos](#3-prototipos)
 * [iv. Consideraciones generales](#4-consideraciones-generales)
+* [v. Listado de problemas que detectaste a través de tests de usabilidad](#v-listado-de-problemas-que-detectaste-a-través-de-tests-de-usabilidad)
 
 
 ***
@@ -19,7 +20,7 @@ El proyecto _"Magical Hogwarts Adventures"_ surge con la finalidad de brindar a 
 
 Las historias de usuario las realizamos en función de los hallazgos de la investigación con seguidoras de Harry Potter que se nos brindó para este proyecto.
 
-Nuestras Historias de Usuario fueron 3:
+Nuestras Historias de Usuario fueron 5:
 
 1. **HU Casas.** Como seguidora de Harry Potter quiero ver las diferentes escuelas que conforman el Colegio Hogwarts de Magia y Hechicería con sus respectivos escudos para conocerlos a detalle. 
 

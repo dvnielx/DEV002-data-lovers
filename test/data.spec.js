@@ -41,10 +41,10 @@ describe('orderAZ', () => {
 
   it('ordena el array de manera ascendente según el nombre de cada elemento', () => {
     const arr = [
-      { name: "Cadwallader", gender: "Male", house: "Hufflepuff" },
       { name: "Euan Abercrombie", gender: "Male", house: "Gryffindor" },
-      { name: "Hetty Bayliss", gender: "Female", house: "null" },
       { name: "Katie Bell", gender: "Female", house: "Gryffindor" },
+      { name: "Hetty Bayliss", gender: "Female", house: "null" },
+      { name: "Cadwallader", gender: "Male", house: "Hufflepuff" },
       { name: "Zoo director", gender: "Male", house: "null"},
       { name: "Mandy Brocklehurst", gender: "Female", house: "Ravenclaw" },
     ];
@@ -72,6 +72,7 @@ describe('orderZA', () => {
       { name: "Cadwallader", gender: "Male", house: "Hufflepuff" },
       { name: "Euan Abercrombie", gender: "Male", house: "Gryffindor" },
       { name: "Hetty Bayliss", gender: "Female", house: "null" },
+      { name: "Hetty Bayliss", gender: "Female", house: "null" },
       { name: "Katie Bell", gender: "Female", house: "Gryffindor" },
       { name: "Zoo director", gender: "Male", house: "null"},
       { name: "Mandy Brocklehurst", gender: "Female", house: "Ravenclaw" },
@@ -82,6 +83,7 @@ describe('orderZA', () => {
       { name: "Zoo director", gender: "Male", house: "null"},
       { name: "Mandy Brocklehurst", gender: "Female", house: "Ravenclaw" },
       { name: "Katie Bell", gender: "Female", house: "Gryffindor" },
+      { name: "Hetty Bayliss", gender: "Female", house: "null" },
       { name: "Hetty Bayliss", gender: "Female", house: "null" },
       { name: "Euan Abercrombie", gender: "Male", house: "Gryffindor" },
       { name: "Cadwallader", gender: "Male", house: "Hufflepuff" }
