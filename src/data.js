@@ -13,7 +13,7 @@ export async function obtenerDatos() {
 }
 
 export const orderAZ = (arr) => { //toma arreglo como
-    let ascendent = arr.sort(function(a, b) {
+    let ascendent = arr.sort(function(a, b) { //guarda en ascendent el array ordenado
       return((a.name < b.name)? -1: ((a.name > b.name)? 1: 0));
     })
   return ascendent;
@@ -30,7 +30,6 @@ return descendent;
 
 
 export function calcularPorcentaje(datos) {
-  console.log(calcularPorcentaje)
   let hombres = 0;
   let mujeres = 0;
   for(let i = 0; i < datos.length; i++) {
