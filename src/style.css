@@ -49,8 +49,8 @@ nav img {
   }
 
 .title {
-    width: 27rem;
-    height: 9.5rem;
+    width: 31rem;
+    height: 10.5rem;
     padding: 2rem;
     text-align: center;
     margin-top: 3rem;
@@ -99,27 +99,28 @@ button[type=button] {
 #cargarAPI:hover {
     background-color: lightslategray;
     color: #f6f6f6; 
+    width: 50%;
 }
 
 .orderAZ {
     width: 3rem;
     cursor: pointer;
     display: none;
-    margin: 2% 0 1% 50%;
+    margin: auto;
 }
 
 #percentageBox {
     margin: 2rem auto;
     border: 1px solid #f6f6f6;
     padding: .4%;
-    width: 27%;
+    width: 50%;
     font-size: 1.5rem;
     display: none; 
-    color: #D4D9D8;
+    color: #f6f6f6;
     font-family: 'Raleway', sans-serif;
     border-radius: 8px; 
-
 }
+
 .cardsContainer {
     display: grid;
     grid-template-columns: 170px 170px;
@@ -139,7 +140,6 @@ button[type=button] {
     display:inline-table;
     font-family: 'Indie Flower';
     font-size: .9rem;
-
   }
 
 .card:hover {
@@ -149,6 +149,7 @@ button[type=button] {
 .infoCard {
     padding: 2px;
 }
+
 .hat-icon {
     width: 4rem;
     height: 4rem;

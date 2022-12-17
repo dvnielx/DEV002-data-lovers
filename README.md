@@ -1,4 +1,4 @@
-# Magical Hogwarts Adventures
+# Magical Hogwarts Adventures ⚡️
 
 ## Índice
 
@@ -144,8 +144,10 @@ Nuestras Historias de Usuario fueron 5:
 
 ## iv. Proyectos desplegados
 
-https://laugardc.github.io/DEV002-data-lovers/
+💻 Laura: https://laugardc.github.io/DEV002-data-lovers/ 
+💻 Daniela: https://dvnielx.github.io/DEV002-data-lovers/ 
 
 ## v. Listado de problemas que detectaste a través de tests de usabilidad
-    *Las lineas 6-9 en data.js no estan cubiertas en los test, ya que utilizamos el método Fetch para traer los datos ya que inicialemnte estabamos trabajando con la url de la API, dejó de funcionar el servidor, y trajimos los datos desde la carpeta .json del repositorio. Conservamos comentada la url de la API por si en algun momento volvía a funciar y poder hacer la llamada correspondiente para trabajar con dicho código. 
-    *Nos faltó crear test para los errores
+
+    *Las lineas 6-9 en data.js no estan cubiertas en los test, ya que utilizamos el método Fetch para traer los datos, pues inicialemnte estábamos trabajando con la url de la API, sin embargo, el servidor dejó de funcionar y trajimos los datos desde la carpeta .json del repositorio. Conservamos comentada la url de la API por si en algun momento volvía a funcionar y poder hacer la llamada correspondiente para trabajar con dicho código. 
+    *Nos faltó crear los test para los errores.

@@ -158,19 +158,5 @@ let Array = [
   {id: 3, nombre: 'Bulbasur'}
 ]
 
-function OrdenarDescendente(){
-  let descendent = Array.sort(function(a, b) { 
-    if(a.id > b.id) { return -1; } 
-    if(a.id < b.id) { return 1; } 
-      else {
-      return 0;
-    }}
-  )
-  return descendent
-}
 
-
-let resultado = OrdenarDescendente(Array)
-
-console.log(resultado)
 

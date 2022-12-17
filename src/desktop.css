@@ -37,7 +37,7 @@ nav {
     z-index: 10;
     background-color: #D4D9D8;
   }
-  nav img {
+nav img {
     position: absolute;
     top: 0;
     left: 0;
@@ -114,6 +114,18 @@ button[type=button] {
 .hat-icon {
     width: 6rem;
     height: 7rem;
+}
+
+#percentageBox {
+    margin: 2rem auto;
+    border: 1px solid #f6f6f6;
+    padding: .4%;
+    width: 27%;
+    font-size: 1.5rem;
+    display: none; 
+    color: #D4D9D8;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 8px; 
 }
 
 img {
